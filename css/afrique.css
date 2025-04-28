@@ -1,6 +1,7 @@
 body  {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #ffffff;
+    height: 100%;
   }
   
   header {
@@ -16,9 +17,7 @@ body  {
   .menu ul li{
     color: #fcde02;
   }
-  
-  
-  
+
   .bvn {
     padding: 10px;
     text-align: center;
@@ -27,17 +26,24 @@ body  {
     height: 500px;
     width: 100%;
     background-size: cover;
+    text-shadow: #000 0px 0px 10px;
   }
   
   p{
     margin-right: 80%;
     height: 500px;
-    font-size: 20px;
+    font-size: 23px;
+    text-shadow: #000 0px 0px 10px;
+    padding: 10px;
   }
   
+  h1, h2, h3 {
+    text-shadow: #000 0px 0px 10px;
+    padding: 10px;
+  }
   
   .sa {
-    background-image: url("/ressources/image/paris.jpg");
+    background-image: url("/ressources/image/afriquedusud.jpg");
     height: 500px;
     font-size: 20px;
     background-size: cover;
@@ -51,7 +57,7 @@ body  {
   }
   
   .egt{
-    background-image: url("/ressources/image/visiter-Madrid.webp");
+    background-image: url("/ressources/image/egt.jpg");
     height: 500px;
     background-size: cover;
     background-position: center;
@@ -63,8 +69,8 @@ body  {
     top: 165%;
   }
   
-  .irc{
-    background-image: url("/ressources/image/collisé.jpg");
+  .mrc{
+    background-image: url("/ressources/image/Marrakech.jpg");
     height: 500px;
     background-size: cover;
     background-position: center;
