@@ -1,0 +1,283 @@
+@import url(importation.css);
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .site-main {
+    padding: 40px 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-description {
+    color: #777;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Grille pour les cartes et articles */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  /* Styles pour les cartes de destination */
+  .destination-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .destination-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .destination-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    margin-top: 0;
+    color: #34495e;
+  }
+  
+  .card-content .short-description {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Styles pour les cartes de types de séjours */
+  .sejour-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sejour-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .sejour-card i {
+    color: #e67e22;
+    margin-bottom: 15px;
+  }
+  
+  .sejour-card h3 {
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour les articles de blog */
+  .blog-post {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .blog-post:hover {
+    transform: translateY(-5px);
+  }
+  
+  .blog-post img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .post-content {
+    padding: 20px;
+  }
+  
+  .post-content h3 {
+    margin-top: 0;
+    color: #34495e;
+  }
+  
+  .post-content .post-meta {
+    color: #999;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  .post-content .short-description {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Styles pour les offres spéciales */
+  .offre-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .offre-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .offre-card .card-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .offre-card h3 {
+    margin-top: 0;
+    color: #e74c3c;
+  }
+  
+  .offre-card .price {
+    font-size: 1.2em;
+    color: #27ae60;
+    margin-bottom: 10px;
+  }
+  
+  .offre-card .original-price {
+    color: #999;
+    text-decoration: line-through;
+    margin-right: 5px;
+  }
+  
+  .offre-card .discounted-price {
+    font-weight: bold;
+  }
+  
+  .offre-card .details {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Styles pour les témoignages */
+  .testimonial-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    font-style: italic;
+    color: #666;
+    text-align: center;
+  }
+  
+  .testimonial-card p:first-child {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-card cite {
+    display: block;
+    font-style: normal;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Styles pour les boutons */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .button.primary {
+    background-color: #3498db;
+  }
+  
+  .button.primary:hover {
+    background-color: #2980b9;
+  }
+  
+  .button.secondary {
+    background-color: #e67e22;
+  }
+  
+  .button.secondary:hover {
+    background-color: #d35400;
+  }
+  
+  .button.tertiary {
+    background-color: #9b59b6;
+  }
+  
+  .button.tertiary:hover {
+    background-color: #8e44ad;
+  }
+  
+  .button.special {
+    background-color: #e74c3c;
+  }
+  
+  .button.special:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Style pour le call-to-action à la fin des sections */
+  .call-to-action {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .call-to-action p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive design (ajustements pour les écrans plus petits) */
+  @media (max-width: 915px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* Afficher les éléments sur une seule colonne sur les petits écrans */
+    }
+  
+    .offre-card {
+      flex-direction: column; /* Assurer que l'image est au-dessus du contenu sur les petits écrans */
+    }
+  }
