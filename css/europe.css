@@ -13,3 +13,34 @@ header {
 .menu ul li{
   color: #FFCC00;
 }
+
+.bvn {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  background-image: url("/ressources/image/europe_background.jpg");
+  height: 500px;
+
+}
+
+.fra {
+  background-image: url("/ressources/image/paris.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.esp{
+  background-image: url("/ressources/image/visiter-Madrid.webp");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.ita{ 
+  background-image: url("/ressources/image/collisé.jpg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
