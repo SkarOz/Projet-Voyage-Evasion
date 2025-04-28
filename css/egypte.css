@@ -1,0 +1,10 @@
+@import url(importation.css);
+
+body {
+    background-image: url(../ressources/image/temple_egypte_isis.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: transparent;
+}
