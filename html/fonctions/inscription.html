@@ -5,20 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Site Tourisme - Univers du Voyage</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/importation.css">
+  <link rel="stylesheet" href="/css/connexion.css">
 </head>
 <body>
-
   <header>
-
     <input type="checkbox" id="burger-toggle" />
     <label for="burger-toggle" class="burger-menu">
         <span></span>
         <span></span>
         <span></span>
     </label>
-
-
     <nav class="menu">
       <ul>
         <li>Accueil</li>
@@ -70,5 +66,43 @@
     </nav>
   </header>
 
+  <div class="container">
+    <div class="formulaire">
+      <h1>Bienvenue sur la page d'inscription</h1>
+      <form>
+        <div class="gender-selection">
+          <label>
+            <input type="radio" name="gender" value="Homme" required> Homme
+          </label>
+          <label>
+            <input type="radio" name="gender" value="Femme"> Femme
+          </label>
+          <label>
+            <input type="radio" name="gender" value="Non-binaire"> Non-binaire
+          </label>
+        </div>
+        <input type="text" placeholder="Nom" required>
+        <input type="text" placeholder="Prenom" required>
+          <input type="number" placeholder="Numéro de Dossier" required>
+          <input type="email" placeholder="Email" required>
+          <input type="email" placeholder="Corfirmer l'Email" required>
+          <input type="password" placeholder="Mot de passe" required>
+          <input type="password" placeholder="Confirmer le Mot de passe" required>
+          <input type="number" placeholder="Numéro de Telephone" required>
+          <input type="submit" value="Se connecter">
+      </form>
+      <div class="links">
+        <a href="#"><p>Vous n'avez pas de numéro de dossier ?</p></a>
+        <a href="connexion.html"><p style="text-align: center;">Vous avez deja un compte?</p></a>
+      </div>
+
+    </div>
+    
+    <div class="image-connexion">
+      <img src="/ressources/image/image_inscription.jpeg" alt="Image Connexion">
+    </div>
+    <div class="overlay">
+      </div>
+  </div>
 </body>
 </html>
