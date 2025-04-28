@@ -17,9 +17,21 @@ header {
         #002868 100%      
   )
 }
-.menuli ul {
+.menuli {
   color: black;
   font-weight: bold;
+}
+
+.retour a, .retour p {
+    display: inline-block;
+    color: black;
+    align-items: center;
+    padding: 0 5px;
+    font-style: italic;
+}
+
+.retour a {
+    text-decoration: underline;
 }
 
 html {
