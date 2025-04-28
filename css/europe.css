@@ -14,6 +14,8 @@ header {
   color: #FFCC00;
 }
 
+
+
 .bvn {
   padding: 10px;
   text-align: center;
@@ -22,15 +24,27 @@ header {
   height: 500px;
   width: 100%;
   background-size: cover;
-
 }
+
+p{
+  margin-right: 80%;
+  height: 500px;
+  font-size: 20px;
+}
+
 
 .fra {
   background-image: url("/ressources/image/paris.jpg");
   height: 500px;
+  font-size: 20px;
   background-size: cover;
   background-position: center;
   color: #ffffff;
+}
+
+.btnfra{
+  position: absolute;
+  top: 110%;
 }
 
 .esp{
@@ -41,28 +55,17 @@ header {
   color: #ffffff;
 }
 
+.btnesp{
+  position: absolute;
+  top: 165%;
+}
+
 .ita{ 
   background-image: url("/ressources/image/collisé.jpg");
   height: 500px;
   background-size: cover;
   background-position: center;
   color: #ffffff;
-}
-
-p{
-  margin-right: 80%;
-  height: 500px;
-  font-size: 20px;
-}
-
-.btnfra{
-  position: absolute;
-  top: 110%;
-}
-
-.btnesp{
-  position: absolute;
-  top: 165%;
 }
 
 .btnita{
