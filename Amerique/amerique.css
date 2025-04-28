@@ -56,11 +56,12 @@ article h2 {
     font-size: 35px;
     line-height: 2;
     padding-bottom: 50px;
+    color: black;
 }
 
 article ul {
     font-size: 18px;
-    margin-left: 10px;
+    margin-left: 5vh;
 }
 
 li {
@@ -74,12 +75,12 @@ hr {
     width: 50%;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .divarticle {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
     width: 80%;
     justify-content: space-evenly;
 }
