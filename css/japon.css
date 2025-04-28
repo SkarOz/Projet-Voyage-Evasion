@@ -5,10 +5,10 @@ body {
     text-decoration: none;
 }
 .menu {
-    background: linear-gradient(
+    background: radial-gradient(
         to right,
         white,
-        grey
+        red
     );
 }
 main {
