@@ -4,14 +4,19 @@ body {
     padding: 0;
     text-decoration: none;
 }
-.menu ul li:hover {
-    color: green; /* couleur texte au survol */
+.menu {
+    color: black;
+    background: linear-gradient(
+        to right,
+        green,
+        green,
+        white,
+        red,
+        red
+    );
 }
-.menu ul li ul li:hover {
-    color: white; /* couleur texte au survol */
-}
-.menu ul li ul li ul li:hover {
-    color: red; /* couleur texte au survol */
+li {
+    color: black;
 }
 main {
     background-image: url(../ressources/image/BG_italie.jpg);
