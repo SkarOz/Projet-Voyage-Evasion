@@ -1,17 +1,17 @@
 @import url(importation.css);
 body {
+    color: black;
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
-.menu ul li:hover {
-    color: green; /* couleur texte au survol */
-}
-.menu ul li ul li:hover {
-    color: white; /* couleur texte au survol */
-}
-.menu ul li ul li ul li:hover {
-    color: red; /* couleur texte au survol */
+.menu {
+    background: linear-gradient(
+        to right,
+        blue,
+        white,
+        red
+    );
 }
 main {
     background-image: url(../ressources/image/BG_reunion.jpg);
