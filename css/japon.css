@@ -1,7 +1,8 @@
+@import url(importation.css);
 body {
     margin: 0;
     padding: 0;
-    size: 100%;
+    text-decoration: none;
 }
 main {
     background-image: url(/ressources/image/BG_italie.jpg);
