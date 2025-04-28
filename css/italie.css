@@ -1,0 +1,22 @@
+@import url(importation.css);
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+main {
+    background-image: url(/ressources/image/BG_italie.jpg);
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+p ,h2 , h1 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+    text-wrap: balance;
+}
