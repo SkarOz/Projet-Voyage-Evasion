@@ -1,179 +1,133 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site Tourisme - Univers du Voyage</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../../css/acceuil.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage-Evasion Accueil</title>
+    
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/lettreEnPanache.css">
+    <link rel="stylesheet" href="css/panachedestinationDeDroite.css">
+
 </head>
 <body>
+    
+<!-- --------------------partie html5 de la barre de navigation et son menu ----------------- -->
+<header>
+  <input type="checkbox" id="burger-toggle" />
+  <label for="burger-toggle" class="burger-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
 
-  <header>
-    <input type="checkbox" id="burger-toggle" />
-    <label for="burger-toggle" class="burger-menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
+  <nav class="menu">
+    <ul>
+      <a href="/acceuil.html"><li>Accueil</li></a>
+      <li>
+        <a href="/html/fonctions/destination.html">Destinations</a>
+        <ul>
+          <li>
+            <a href="/html/europe/europe.html">Europe</a>
+            <ul>
+              <a href="/html/europe/france.html"><li>France</li></a>
+              <a href="/html/europe/espagne.html"><li>Espagne</li></a>
+              <a href="/html/europe/italie.html"><li>Italie</li></a>
+            </ul>
+          </li>
+          <li>
+            <a href="/html/asie/asie.html">Asie</a>
+            <ul>
+              <a href="/html/asie/japon.html"><li>Japon</li></a>
+              <a href="/html/asie/thailand.html"><li>Thaïlande</li></a>
+              <a href="/html/asie/vietnam.html"><li>Vietnam</li></a>
+            </ul>
+          </li>
+          <li>
+            <a href="/html/amerique/amerique.html">Amériques</a>
+            <ul>
+              <a href="/html/amerique/usa.html"><li>États-Unis</li></a>
+              <a href="/html/amerique/bresil.html"><li>Brésil</li></a>
+              <a href="/html/amerique/argentine.html"><li>Argentine</li></a>
+            </ul>
+          </li>
+          <li>
+            <a href="/html/afrique/afrique.html">Afrique</a>
+            <ul>
+              <a href="/html/afrique/maroc.html"><li>Maroc</li></a>
+              
+                <a href="/html/afrique/afrique_sud.html"><li>Afrique du Sud</li></a>
+              
+              <a href="/html/afrique/egypte.html"><li>Égypte</li></a>
+            </ul>
+          </li>
+          <li>
+            <a href="/html/iles/iles.html">Îles</a>
+            <ul>
+              <a href="/html/iles/tahiti.html"><li>Tahiti</li></a>
+              <a href="/html/iles/maldives.html"><li>Maldives</li></a>
+              <a href="/html/iles/reunion.html"><li>Réunion</li></a>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <a href="/html/fonctions/alaune.html"><li>A la une</li></a>
+      <a href="/html/fonctions/contact.html"><li>Contact</li></a>
+      <a href="/html/fonctions/qsn.html"><li>Qui sommes-nous ?</li></a>
+      <a href="/html/fonctions/connexion.html"><li>Connexion</li></a>
+      <a href="/html/fonctions/inscription.html"><li>Inscription</li></a>
+    </ul>
+  </nav>
+</header>
 
-    <nav class="menu">
-      <ul>
-        <li><a href="acceuil.html">Accueil</a></li>
-        <li>
-          <a href="./html/fonctions/destination.html">Destinations</a>
-          <ul>
-            <li>
-              <a href="../europe/europe.html">Europe</a>
-              <ul>
-                <li><a href="../europe/france.html">France</a></li>
-                <li><a href="../europe/espagne.html">Espagne</a></li>
-                <li><a href="../europe/italie.html">Italie</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="../asie/asie.html">Asie</a>
-              <ul>
-                <li><a href="../asie/japon.html">Japon</a></li>
-                <li><a href="../asie/thailand.html">Thaïlande</a></li>
-                <li><a href="../asie/vietnam.html">Vietnam</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="../amerique/amerique.html">Amériques</a>
-              <ul>
-                <li><a href="../amerique/USA/usa.html">États-Unis</a></li>
-                <li><a href="../amerique/Bresil/bresil.html">Brésil</a></li>
-                <li><a href="../amerique/Argentine/argentine.html">Argentine</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="../afrique/afrique.html">Afrique</a>
-              <ul>
-                <li><a href="../afrique/maroc.html">Maroc</a></li>
-                <li>
-                  <a href="../afrique/afrique_sud.html">Afrique du Sud</a>
-                </li>
-                <li><a href="../afrique/egypte.html">Égypte</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="../iles/iles.html">Îles</a>
-              <ul>
-                <li><a href="../iles/tahiti.html">Tahiti</a></li>
-                <li><a href="../iles/maldives.html">Maldives</a></li>
-                <li><a href="../iles/reunion.html">Réunion</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="../fonctions/alaune.html">A la une</a></li>
-        <li><a href="../fonctions/contact.html">Contact</a></li>
-        <li><a href="../fonctions/qsn.html">Qui sommes-nous ?</a></li>
-        <li><a href="../fonctions/qsn.html">Connexion</a></li>
-        <li><a href="../fonctions/inscription.html">Inscription</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section id="destinations-phares" class="section destinations">
-        <div class="container">
-          <h2 class="section-title">Destinations</h2>
-          <p class="section-description">Explorez les joyaux du monde entier. Des plages paradisiaques aux villes historiques, trouvez l'inspiration pour votre prochaine aventure.</p>
-          <div class="grid-container">
-            <article class="destination-card">
-              <img src="ressources/image/paris_2.jpg" alt="Paris" loading="lazy">
-              <div class="card-content">
-                <h3>France</h3>
-                <p class="short-description">La ville de l'amour, de l'art et de la gastronomie.(baguette)</p>
-                <a href="html/europe/france.html" class="button">Découvrir la France</a>
-              </div>
-            </article>
-    
-            <article class="destination-card">
-              <img src="ressources/image/Japon_5.jpg" alt="Japon" loading="lazy">
-              <div class="card-content">
-                <h3>Japon</h3>
-                <p class="short-description">Archipel paradisiaque avec des paysages époustouflants et une culture riche.</p>
-                <a href="html/asie/japon.html" class="button">Découvrir le japon</a>
-              </div>
-            </article>
-    
-            <article class="destination-card">
-              <img src="ressources/image/visiter-Madrid.webp" alt="Espagne" loading="lazy">
-              <div class="card-content">
-                <h3>Espagne</h3>
-                <p class="short-description">Origine de la corida et des toreau du coup.</p>
-                <a href="html/europe/espagne.html" class="button">Découvrir Espagne</a>
-              </div>
-            </article>
-    
-            </div>
-          <div class="call-to-action">
-            <p>Prêt à explorer ?</p>
-            <a href="html/fonctions/destination.html" class="button primary">Voir toutes les destinations</a>
-          </div>
-        </div>
-      </section>
-    
-      <section id="types-de-sejours" class="section sejours">
-        <div class="container">
-          <h2 class="section-title">Types de Séjours</h2>
-          <p class="section-description">Que vous recherchiez l'aventure, la détente ou une immersion culturelle, trouvez le voyage qui vous correspond.</p>
-          <div class="grid-container">
-            <div class="sejour-card">
-              <i class="fas fa-hiking fa-3x"></i>
-              <h3>Aventure</h3>
-              <p>Randonnées en montagne, forets...</p>
-              <a href="https://www.komoot.com/fr-fr/discover/randonnees" class="button secondary">En savoir plus</a>
-            </div>
-    
-            <div class="sejour-card">
-              <i class="fas fa-sun fa-3x"></i>
-              <h3>Détente</h3>
-              <p>Plages de sable fin, spas relaxants, croisières...</p>
-              <a href="https://blog.kollori.com/les-espaces-de-detente-les-plus-cool-de-la-planete/" class="button secondary">En savoir plus</a>
-            </div>
-    
-            <div class="sejour-card">
-              <i class="fas fa-landmark fa-3x"></i>
-              <h3>Culture & Histoire</h3>
-              <p>Visites de sites historiques, découvertes de traditions locales, musées...</p>
-              <a href="https://www.gandonevasion.com/voyage-organise-circuit/voyage-groupe-cse/voyage-organise-en-groupe/voyages-organises-culturels-des-voyages-pour-decouvrir-l-histoire-et-les-traditions-d-un-pays" class="button secondary">En savoir plus</a>
-            </div>
-    
-            </div>
-        </div>
-      </section>
-    
-      <section id="inspiration-voyage" class="section blog">
-        <div class="container">
-          <h2 class="section-title">Inspiration Voyage</h2>
-          <p class="section-description">Laissez-vous inspirer par nos articles de blog, récits de voyage et conseils pratiques pour planifier votre prochaine escapade.</p>
-          <div class="grid-container">
-            <article class="blog-post">
-              <div class="post-content">
-                <h3>MON BLOG VOYAGE : Le blog qui t'emmène voyager !</h3>
-                <p class="short-description">Un blog multitache.</p>
-                <a href="https://monblogvoyage.fr" class="button tertiary">Lire l'article</a>
-              </div>
-            </article>
-    
-            <article class="blog-post">
-              <div class="post-content">
-                <h3>Le meilleur site pour preparer son voyage.</h3>
-                <p class="short-description">Decouvrez des hotel et tous sorte de lotissemment pour vos voyage.</p>
-                <a href="https://www.booking.com/articles.fr.html" class="button tertiary">Lire le récit</a>
-              </div>
-            </article>
-    
-            </div>
-          <div class="call-to-action">
-            <a href="https://www.google.com/search?client=opera-gx&q=blog+voyage&sourceid=opera&ie=UTF-8&oe=UTF-8" class="button primary">Voir tous les articles</a>
-          </div>
-        </div>
-      </section>
+    <!-- Mots "panache" sur les côtés -->
+    <div class="side-text-left">
+        <p>Europe</p>
+        <p>Asie</p>
+        <p>Amériques</p>
+        <p>Afrique</p>
+        <p>Îles</p>
+      </div>
+
+      <br>
+  <h1 class="EXPLORE">EXPLORE L'INVISIBLE</h1>
+  <h2 class="evasion">Voyage-Evasion</h2>
+  <main class="imageDeFond">
+ 
+    <div class="destination-panache">
+
+
+        <p>France</p>
+        <p>Espagne</p>
+        <p>Italie</p>
+        <p>Japon</p>
+        <p>Thaïlande</p>
+        <p>Vietnam</p>
+        <p>États-Unis</p>
+        <p>Brésil</p>
+        <p>Argentine</p>
+        <p>Maroc</p>
+        <p>Afrique du Sud</p>
+        <p>Égypte</p>
+        <p>Tahiti</p>
+        <p>Maldives</p>
+        <p>Réunion</p>
+      </div>
+      
+
+
   </main>
+
+
+
+
+
+
+
+<!-- --------------------partie html5 de la barre de navigation et son menu ----------------- -->
+
+
 </body>
 </html>
