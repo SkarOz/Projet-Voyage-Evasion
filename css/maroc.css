@@ -1,27 +1,26 @@
 @import url(importation.css);
-
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; 
-    color: #333;
-    background-image: url(../ressources/image/argentine.jpg);
+    background: #fff8f0;
+    color: 	#3CB371;
+    
+    background-image: url(../ressources/image/maroc.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: transparent;
-  }
+    }
   section {
     padding: 2rem;
     border-bottom: 1px solid #ddd;
-    background-color: white;
   }
   
   section h2 {
-    color: #4682B4;
-    font-size: 1.6rem;
+    color: #c0392b;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
   }
   
@@ -33,13 +32,12 @@ body {
   footer {
     text-align: center;
     padding: 1.5rem;
-    background-color: #ffd700; 
+    background-color: #f4e7da;
     font-weight: bold;
-    font-size: 1.1rem;
-    color: #444;
+    font-size: 1.2rem;
   }
   nav {
-    background-color: #74ACDF; 
+    background-color: #C1272D; 
   }
   
   nav a {
@@ -52,6 +50,6 @@ body {
   }
   
   nav a:hover {
-    background-color: #FFD700; 
-    color: #A0522D;
+    background-color: #007A33; 
+    color: white;
   }
