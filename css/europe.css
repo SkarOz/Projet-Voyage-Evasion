@@ -1,7 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body  {
   background-color: #ffffff;
   font-family: Arial, sans-serif;
   color: #333;
+  height: 100%;
 }
 
 header {
@@ -28,8 +36,10 @@ header {
 
 p{
   margin-right: 80%;
-  height: 500px;
-  font-size: 20px;
+  height: auto;
+  font-size: 23px;
+  text-shadow: #000 0px 0px 10px;
+  padding: 10px;
 }
 
 
@@ -44,7 +54,7 @@ p{
 
 .btnfra{
   position: absolute;
-  top: 110%;
+  margin-top: auto;
 }
 
 .esp{
@@ -57,7 +67,7 @@ p{
 
 .btnesp{
   position: absolute;
-  top: 165%;
+  margin-top: auto;
 }
 
 .ita{ 
@@ -70,7 +80,7 @@ p{
 
 .btnita{
   position: absolute;
-  top: 220%;
+  margin-top: auto;
 }
 
 button {

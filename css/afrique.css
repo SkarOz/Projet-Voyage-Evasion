@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 body  {
     font-family: Arial, sans-serif;
     color: #ffffff;
@@ -31,7 +39,7 @@ body  {
   
   p{
     margin-right: 80%;
-    height: 500px;
+    height: auto;
     font-size: 23px;
     text-shadow: #000 0px 0px 10px;
     padding: 10px;
@@ -53,7 +61,7 @@ body  {
   
   .btnsa{
     position: absolute;
-    top: 110%;
+    margin-top: auto;
   }
   
   .egt{
@@ -66,12 +74,12 @@ body  {
   
   .btnegt{
     position: absolute;
-    top: 165%;
+    margin-top: auto;
   }
   
   .mrc{
     background-image: url("/ressources/image/Marrakech.jpg");
-    height: auto;
+    height: 500PX;
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -79,7 +87,7 @@ body  {
   
   .btnmrc{
     position: absolute;
-    top: 225%;
+    margin-top: auto;
   }
   
   button {
