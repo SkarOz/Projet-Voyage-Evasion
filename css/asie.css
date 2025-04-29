@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body  {
     font-family: Arial, sans-serif;
     color: #ffffff;
@@ -6,7 +12,7 @@ body  {
   
   header {
     width: 100%;
-    background: #018a2c;
+    background: #2a1e99;
     height: 60px;
   }
   
@@ -15,14 +21,14 @@ body  {
   }
 
   .menu ul li{
-    color: #fcde02;
+    color: #d10a12
   }
 
   .bvn {
     padding: 10px;
     text-align: center;
     font-size: 20px;
-    background-image: url("/ressources/image/AMP-197.png");
+    background-image: url("/ressources/image/asie.jpg");
     height: 500px;
     width: 100%;
     background-size: cover;
@@ -31,7 +37,7 @@ body  {
   
   p{
     margin-right: 80%;
-    height: 500px;
+    height: auto;
     font-size: 23px;
     text-shadow: #000 0px 0px 10px;
     padding: 10px;
@@ -42,8 +48,8 @@ body  {
     padding: 10px;
   }
   
-  .sa {
-    background-image: url("/ressources/image/afriquedusud.jpg");
+  .jp {
+    background-image: url("/ressources/image/jp.webp");
     height: 500px;
     font-size: 20px;
     background-size: cover;
@@ -51,33 +57,33 @@ body  {
     color: #ffffff;
   }
   
-  .btnsa{
+  .btnjp{
     position: absolute;
     top: 110%;
   }
   
-  .egt{
-    background-image: url("/ressources/image/egt.jpg");
+  .tha{
+    background-image: url("/ressources/image/thai.jpg");
     height: 500px;
     background-size: cover;
     background-position: center;
     color: #ffffff;
   }
   
-  .btnegt{
+  .btntha{
     position: absolute;
     top: 165%;
   }
   
-  .mrc{
-    background-image: url("/ressources/image/Marrakech.jpg");
+  .viet{
+    background-image: url("/ressources/image/vietnam-in-november.webp");
     height: 500px;
     background-size: cover;
     background-position: center;
     color: #ffffff;
   }
   
-  .btnmrc{
+  .btnviet{
     position: absolute;
     top: 220%;
   }
