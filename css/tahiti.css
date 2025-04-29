@@ -2,6 +2,10 @@ main, footer{
     a, a:hover, a:visited, a:active, a:link {
         color: black;
     }
+    
+}
+body{
+    background-color: rgb(236, 236, 152);
 }
 
 .tete{
@@ -29,6 +33,15 @@ h2{
     display: grid;
     grid-template-areas: "1fr 1fr 1fr";
     place-items: center;
+    margin: 2%;
+}
+
+img{
+    width: 200px;
+}
+
+.hotel, .restaurant, .activite{
+    text-align: center;
 }
 
 .compagnie{
@@ -48,6 +61,7 @@ h2{
 h3{
     color: blueviolet;
     text-decoration: underline;
+    margin-bottom: 2%;
 }
 
 .clarete{
