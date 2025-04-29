@@ -1,14 +1,15 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Site Tourisme - Univers du Voyage</title>
+    <title>Îles</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/importation.css" />
+    <link rel="stylesheet" href="/css/importation.css" />
+    <link rel="stylesheet" href="/css/iles.css" />
   </head>
   <body>
     <header>
@@ -21,61 +22,101 @@
 
       <nav class="menu">
         <ul>
-          <li><a href="acceuil.html">Accueil</a></li>
+          <a href="/acceuil.html"><li>Accueil</li></a>
           <li>
-            <a href="html/fonctions/destination.html">Destinations</a>
+            <a href="/html/fonctions/destination.html">Destinations</a>
             <ul>
               <li>
-                <a href="html/europe/europe.html">Europe</a>
+                <a href="/html/europe/europe.html">Europe</a>
                 <ul>
-                  <li><a href="/html/europe/france.html">France</a></li>
-                  <li><a href="/html/europe/espagne.html">Espagne</a></li>
-                  <li><a href="/html/europe/italie.html">Italie</a></li>
+                  <a href="/html/europe/france.html"><li>France</li></a>
+                  <a href="/html/europe/espagne.html"><li>Espagne</li></a>
+                  <a href="/html/europe/italie.html"><li>Italie</li></a>
                 </ul>
               </li>
               <li>
-                <a href="html/asie/asie.html">Asie</a>
+                <a href="/html/asie/asie.html">Asie</a>
                 <ul>
-                  <li><a href="/html/asie/japon.html">Japon</a></li>
-                  <li><a href="/html/asie/thailand.html">Thaïlande</a></li>
-                  <li><a href="/html/asie/vietnam.html">Vietnam</a></li>
+                  <a href="/html/asie/japon.html"><li>Japon</li></a>
+                  <a href="/html/asie/thailand.html"><li>Thaïlande</li></a>
+                  <a href="/html/asie/vietnam.html"><li>Vietnam</li></a>
                 </ul>
               </li>
               <li>
-                Amériques
+                <a href="/html/amerique/amerique.html">Amériques</a>
                 <ul>
-                  <li><a href="html/amerique/usa.html">États-Unis</a></li>
-                  <li><a href="html/amerique/bresil.html">Brésil</a></li>
-                  <li><a href="html/afrique/argentine.html" Argentine</li>
+                  <a href="/html/amerique/usa.html"><li>États-Unis</li></a>
+                  <a href="/html/amerique/bresil.html"><li>Brésil</li></a>
+                  <a href="/html/amerique/argentine.html"><li>Argentine</li></a>
                 </ul>
               </li>
               <li>
-                <a href="html/afrique/afrique.html">Afrique</a>
+                <a href="/html/afrique/afrique.html">Afrique</a>
                 <ul>
-                  <li><a href="html/afrique/maroc.html">Maroc</a></li>
-                  <li>
-                    <a href="html/afrique/afrique_sud.html">Afrique du Sud</a>
-                  </li>
-                  <li>Égypte</li>
+                  <a href="/html/afrique/maroc.html"><li>Maroc</li></a>
+
+                  <a href="/html/afrique/afrique_sud.html"
+                    ><li>Afrique du Sud</li></a
+                  >
+
+                  <a href="/html/afrique/egypte.html"><li>Égypte</li></a>
                 </ul>
               </li>
               <li>
-                <a href="html/iles/iles.html">Îles</a>
+                <a href="/html/iles/iles.html">Îles</a>
                 <ul>
-                  <li><a href="html/iles/tahiti.html">Tahiti</a></li>
-                  <li><a href="html/iles/maldives.html">Maldives</a></li>
-                  <li><a href="html/iles/reunion.html">Réunion</a></li>
+                  <a href="/html/iles/tahiti.html"><li>Tahiti</li></a>
+                  <a href="/html/iles/maldives.html"><li>Maldives</li></a>
+                  <a href="/html/iles/reunion.html"><li>Réunion</li></a>
                 </ul>
               </li>
             </ul>
           </li>
-          <li><a href="/html/fonctions/alaune.html">A la une</a></li>
-          <li><a href="/html/fonctions/contact.html">Contact</a></li>
-          <li><a href="/html/fonctions/qsn.html">Qui sommes-nous ?</a></li>
-          <li><a href="/html/fonctions/connexion.html">Connexion</a></li>
-          <li><a href="html/fonctions/inscription.html">Inscription</a></li>
+          <a href="/html/fonctions/alaune.html"><li>A la une</li></a>
+          <a href="/html/fonctions/contact.html"><li>Contact</li></a>
+          <a href="/html/fonctions/qsn.html"><li>Qui sommes-nous ?</li></a>
+          <a href="/html/fonctions/connexion.html"><li>Connexion</li></a>
+          <a href="/html/fonctions/inscription.html"><li>Inscription</li></a>
         </ul>
       </nav>
     </header>
+    <main>
+      <div class="tete">
+        <h2>Vous préferez les îles parfait ?</h2>
+        <h2>Parfait !</h2>
+      </div>
+      <div class="container-flex">
+        <div class="container-grid">
+          <div class="tahiti">
+            <h3>Tahiti</h3>
+            <img src="/ressources/image/tahiti.jpg" alt="Paysage de Tahiti" />
+          </div>
+          <div class="none"></div>
+          <div class="maldive">
+            <h3>Maldives</h3>
+            <img src="/ressources/image/maldive.jpg" alt="Paysage de maldive" />
+          </div>
+          <div class="reunion">
+            <h3>Réunion</h3>
+            <img
+              src="/ressources/image/reunion.jpg"
+              alt="Paysage de la ReunionS"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="paragraphe">
+        <p class="centrer">
+          Peu importe quelle îles vous choisirez l'expérience restera
+          inoubliable
+        </p>
+        <p class="centrer">
+          Bien sure nos agents de vioyages sont disponible pour que votre voyage
+          vous ressemble
+        </p>
+        <img src="/ressources/image/iles.jpg" alt="" />
+      </div>
+      <br />
+    </main>
   </body>
 </html>
