@@ -1,13 +1,28 @@
 main, footer{
     a, a:hover, a:visited, a:active, a:link {
         color: black;
-    }
-    
+    }   
 }
+
+.menu{
+    background-color: red;
+}
+.menu ul li {
+    color: #eeff00;
+  }
+  a, a:hover, a:visited, a:active, a:link{
+    color: #eeff00;
+  }
+
 body{
     background-color: rgb(236, 236, 152);
 }
 
+h1{
+    text-transform: uppercase;
+    color: red;
+    text-decoration: underline;
+}
 .tete{
    text-align: center;
 }
@@ -38,6 +53,10 @@ h2{
 
 img{
     width: 200px;
+}
+
+figcaption{
+    margin-bottom: 10%;
 }
 
 .hotel, .restaurant, .activite{

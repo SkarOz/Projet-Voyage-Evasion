@@ -1,6 +1,10 @@
 html, body{
     height: 100%;
 }
+nav{
+    background: yellow;
+    /* color: green; */
+}
 body{
     background: rgba(172, 255, 47, 0.486);
 }
