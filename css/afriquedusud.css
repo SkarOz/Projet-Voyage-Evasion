@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+@keyframes translate{
+    from{transform: translateX(-10vw)}
+    to{transform: translateX(100vw)}
+}
+.avion{
+    animation-name: translate;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+
+
 header {
   width: 100%;
   height: 60px;

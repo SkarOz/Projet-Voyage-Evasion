@@ -1,3 +1,16 @@
+@keyframes translate{
+    from{transform: translateX(-10vw)}
+    to{transform: translateX(100vw)}
+}
+.avion{
+    animation-name: translate;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
@@ -22,7 +35,7 @@ body {
     .titre {
     grid-area: titre;
     text-align: center;
-    background: url(/ressources/image/ha_long_bay.jpg) no-repeat center center/cover;
+    background: url(../ressources/image/ha_long_bay.jpg) no-repeat center center/cover;
     text-align: center;
     height: auto;
     font-size: 23px;
@@ -32,7 +45,7 @@ body {
 
     .campagne {
     grid-area: campagne;
-    background: url(/ressources/image/sapa_vietnam.jpg) no-repeat center center/cover;
+    background: url(../ressources/image/sapa_vietnam.jpg) no-repeat center center/cover;
     text-align: right;
     height: auto;
     font-size: 23px;
@@ -42,7 +55,7 @@ body {
 
     .culture {
     grid-area: culture;
-    background: url(/ressources/image/culture-vietnamienne.jpg) no-repeat center center/cover;
+    background: url(../ressources/image/culture-vietnamienne.jpg) no-repeat center center/cover;
     text-align: left;
     height: auto;
     font-size: 23px;
@@ -52,7 +65,7 @@ body {
 
     .gastronomie {
     grid-area: gastronomie;
-    background: url(/ressources/image/pho.jpg) no-repeat center center/cover;
+    background: url(../ressources/image/pho.jpg) no-repeat center center/cover;
     text-align:start;
     height: auto;
     font-size: 23px;

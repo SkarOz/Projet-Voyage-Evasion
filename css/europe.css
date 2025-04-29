@@ -4,12 +4,26 @@
   box-sizing: border-box;
 }
 
+@keyframes translate{
+  from{transform: translateX(-10vw)}
+  to{transform: translateX(100vw)}
+}
+.avion{
+  animation-name: translate;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+
 
 body  {
   background-color: #ffffff;
   font-family: Arial, sans-serif;
   color: #333;
   height: 100%;
+  font-size: 20px;
 }
 
 header {
@@ -22,13 +36,11 @@ header {
   color: #FFCC00;
 }
 
-
-
 .bvn {
   padding: 10px;
   text-align: center;
   font-size: 20px;
-  background-image: url("/ressources/image/europe_background.jpg");
+  background-image: url("../ressources/image/europe_background.jpg");
   height: 500px;
   width: 100%;
   background-size: cover;
@@ -37,14 +49,14 @@ header {
 p{
   margin-right: 80%;
   height: auto;
-  font-size: 23px;
+  font-size: 20px;
   text-shadow: #000 0px 0px 10px;
   padding: 10px;
 }
 
 
 .fra {
-  background-image: url("/ressources/image/paris.jpg");
+  background-image: url("../ressources/image/paris.jpg");
   height: 500px;
   font-size: 20px;
   background-size: cover;
@@ -58,7 +70,7 @@ p{
 }
 
 .esp{
-  background-image: url("/ressources/image/visiter-Madrid.webp");
+  background-image: url("../ressources/image/visiter-Madrid.webp");
   height: 500px;
   background-size: cover;
   background-position: center;
@@ -71,7 +83,7 @@ p{
 }
 
 .ita{ 
-  background-image: url("/ressources/image/collisé.jpg");
+  background-image: url("../ressources/image/collisé.jpg");
   height: 500px;
   background-size: cover;
   background-position: center;

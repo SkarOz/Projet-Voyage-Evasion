@@ -59,7 +59,7 @@ h3{
 
 .europe{
     grid-area: Europe;
-    background: url(/ressources/image/fond_europe.png), #9e9d9d;
+    background: url(../ressources/image/fond_europe.png), #9e9d9d;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,28 +67,28 @@ h3{
 
 .asie {
     grid-area: Asie;
-    background: url(/ressources/image/fond_asie.png), #9e9d9df1;
+    background: url(../ressources/image/fond_asie.png), #9e9d9df1;
     background-size: contain;
     background-position: center;
 }
 
 .amerique {
     grid-area: Amerique;
-    background: url(/ressources/image/fond_usa.png),  #9e9d9df1;
+    background: url(../ressources/image/fond_usa.png),  #9e9d9df1;
     background-size: contain;
     background-position: center;
 }
 
 .afrique {
     grid-area: Afrique;
-    background: url(/ressources/image/fond_afrique.png),  #9e9d9df1;
+    background: url(../ressources/image/fond_afrique.png),  #9e9d9df1;
     background-size: contain;
 }
 
 .iles {
     grid-area: Iles;
     grid-template-rows: 2;
-    background: url(/ressources/image/fond_iles.png),  #9e9d9df1;
+    background: url(../ressources/image/fond_iles.png),  #9e9d9df1;
     background-size: contain;
 }
 

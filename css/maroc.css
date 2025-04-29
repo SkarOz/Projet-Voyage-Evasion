@@ -1,4 +1,17 @@
 @import url(../css/importation.css);
+@keyframes translate{
+  from{transform: translateX(-10vw)}
+  to{transform: translateX(100vw)}
+}
+.avion{
+  animation-name: translate;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
