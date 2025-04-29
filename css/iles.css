@@ -1,3 +1,7 @@
+nav{
+  background-color: red;
+  color: white;
+}
 main{
     background: rgba(7, 7, 255, 0.438);
 }
@@ -46,6 +50,10 @@ h2{
     width: 100%;
     max-width: 300px; /* Ajuste la taille des images */
     height: auto;
+  }
+
+  .auguemente:hover {
+    scale: 1.5;
   }
 
 .paragraphe{
