@@ -48,6 +48,10 @@ h2{
     height: auto;
   }
 
+  .auguemente:hover {
+    scale: 1.5;
+  }
+
 .paragraphe{
     margin: 5%;
     display: grid;
