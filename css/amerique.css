@@ -7,6 +7,7 @@
 
 body {
     background-color: #ecececc9;
+    padding-bottom: 50px;
 }
 
 header {
@@ -41,6 +42,8 @@ main {
     width: 500px;
     height: auto;
     margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.63);
 }
 
 .presentation {
@@ -57,6 +60,8 @@ main {
 article img {
     width: 500px;
     margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.63);
 }
 
 article {
