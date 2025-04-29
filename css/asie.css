@@ -59,7 +59,7 @@ body  {
   
   .btnjp{
     position: absolute;
-    top: 110%;
+    margin-top: auto;
   }
   
   .tha{
@@ -72,7 +72,7 @@ body  {
   
   .btntha{
     position: absolute;
-    top: 165%;
+    margin-top: auto;
   }
   
   .viet{
@@ -85,7 +85,7 @@ body  {
   
   .btnviet{
     position: absolute;
-    top: 220%;
+    margin-top: auto;
   }
   
   button {
