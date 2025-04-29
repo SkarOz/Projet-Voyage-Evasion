@@ -27,6 +27,10 @@ header {
   font-weight: bold;
 }
 
+.retour {
+    margin-top: 15px;
+}
+
 .retour a, .retour p {
     display: inline-block;
     color: black;
