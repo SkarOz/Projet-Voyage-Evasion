@@ -71,7 +71,7 @@ body  {
   
   .mrc{
     background-image: url("/ressources/image/Marrakech.jpg");
-    height: 500px;
+    height: auto;
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -79,7 +79,7 @@ body  {
   
   .btnmrc{
     position: absolute;
-    top: 220%;
+    top: 225%;
   }
   
   button {
